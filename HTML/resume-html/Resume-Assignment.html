@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swastisunder Badatya - Resume</title>
+    <style>
+      body {
+        padding: 20px;
+        background-color: #000;
+        color: azure;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        width: 70%;
+        margin: auto;
+      }
+
+      header,
+      section,
+      footer {
+        background-color: #0f172a;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 1rem;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #ff8904;
+        margin-top: 0;
+      }
+
+      a {
+        color: #ff8904;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      th,
+      td {
+        border: 1px solid #374151;
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #020617;
+        color: #ff8904;
+      }
+
+      article {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #374151;
+      }
+
+      address {
+        font-style: normal;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #9ca3af;
+      }
+    </style>
+  </head>
+
+  <body id="resume-page">
+    <!-- ================= HEADER ================= -->
+    <header id="site-header" class="header">
+      <section id="intro-section" class="header-section">
+        <h1 id="candidate-name" class="header-name">Swastisunder Badatya</h1>
+
+        <p id="candidate-role" class="header-description">
+          <strong>Full Stack Developer</strong> |
+          <strong>React Developer</strong> |
+          <strong>Music Producer</strong>
+        </p>
+      </section>
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main id="main-content">
+      <!-- ===== ABOUT SECTION ===== -->
+      <section id="about-section" class="about-me">
+        <h2 id="about-heading" class="section-heading">About Me</h2>
+
+        <p id="about-description" class="about-description">
+          Full-stack <strong>MERN developer</strong> skilled in
+          <em>React.js</em>, <em>Node.js</em>, and <em>MongoDB</em>. Focused on
+          building clean, responsive user interfaces and scalable web
+          applications. Currently exploring <strong>ChaiCode Cohort</strong>.
+        </p>
+      </section>
+
+      <!-- ===== SKILLS SECTION ===== -->
+      <section id="skills-section" class="skills">
+        <h2 id="skills-heading" class="section-heading">Skills</h2>
+
+        <ul id="skills-list" class="skills-list">
+          <li class="skill-category">
+            <strong>Backend</strong>
+            <ul class="skill-items">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>REST APIs</li>
+            </ul>
+          </li>
+
+          <li class="skill-category">
+            <strong>Frontend</strong>
+            <ul class="skill-items">
+              <li>React.js</li>
+              <li>JavaScript</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </li>
+
+          <li class="skill-category">
+            <strong>Database</strong>
+            <ul class="skill-items">
+              <li>MongoDB</li>
+              <li>MySQL</li>
+            </ul>
+          </li>
+
+          <li class="skill-category">
+            <strong>Tools</strong>
+            <ul class="skill-items">
+              <li>Git &amp; GitHub</li>
+              <li>Netlify</li>
+              <li>Render</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ===== EXPERIENCE SECTION ===== -->
+      <section id="experience-section" class="experience">
+        <h2 id="experience-heading" class="section-heading">Experience</h2>
+
+        <table id="experience-table" class="data-table" border="1">
+          <colgroup>
+            <col span="1" />
+            <col span="1" />
+            <col span="1" />
+          </colgroup>
+
+          <thead>
+            <tr>
+              <th scope="col">Position</th>
+              <th scope="col">Company</th>
+              <th scope="col">Duration</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>JavaScript Developer</td>
+              <td>BigScal Technologies Pvt. Ltd</td>
+              <td>2026 - Present</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ===== PROJECTS SECTION ===== -->
+      <section id="projects-section" class="projects">
+        <h2 id="projects-heading" class="section-heading">Projects</h2>
+
+        <!-- Project Nivaas -->
+        <article id="project-nivaas" class="project-card">
+          <h3 class="project-title">
+            <a
+              href="https://nivaas-bvbq.onrender.com/listings"
+              target="_blank"
+              rel="noopener"
+            >
+              Nivaas - Airbnb-style Listing Platform
+            </a>
+          </h3>
+
+          <p class="project-tech">
+            <strong>Tech Stack:</strong>
+            Node.js, Express, MongoDB, EJS
+          </p>
+
+          <ul class="project-details">
+            <li>
+              Built a full <strong>CRUD system</strong> for listings, reviews,
+              and user accounts
+            </li>
+            <li>Integrated MongoDB Atlas and authentication</li>
+            <li>Implemented server-rendered UI using EJS templates</li>
+            <li>Deployed on Render with environment-based configuration</li>
+          </ul>
+        </article>
+
+        <!-- Project CineScope -->
+        <article id="project-cinescope" class="project-card">
+          <h3 class="project-title">
+            <a
+              href="https://cine-scop.netlify.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              CineScope - Movie Explorer Web App
+            </a>
+          </h3>
+
+          <p class="project-tech">
+            <strong>Tech Stack:</strong>
+            React.js, Tailwind CSS, React Router, TMDB API
+          </p>
+
+          <ul class="project-details">
+            <li>Advanced search, filtering, and sorting features</li>
+            <li>Pagination for large movie datasets</li>
+            <li>Detailed movie pages with dynamic TMDB data</li>
+            <li>Reusable React components for scalability</li>
+            <li>Responsive UI across devices</li>
+            <li>Deployed on Netlify with GitHub CI/CD</li>
+          </ul>
+        </article>
+
+        <!-- Project MoviesMate -->
+        <article id="project-moviesmate" class="project-card">
+          <h3 class="project-title">MoviesMate - Movie Recommender System</h3>
+
+          <p class="project-tech">
+            <strong>Tech Stack:</strong>
+            Python, Streamlit, MySQL, Pandas
+          </p>
+
+          <ul class="project-details">
+            <li>Content-based recommendation engine</li>
+            <li>User authentication and session management</li>
+            <li>Personalized recommendations using search history</li>
+            <li>Multi-page navigation with Streamlit sidebar</li>
+            <li>Optimized data handling with Pandas</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- ===== EDUCATION SECTION ===== -->
+      <section id="education-section" class="education">
+        <h2 id="education-heading" class="section-heading">Education</h2>
+
+        <table id="education-table" class="data-table" border="1">
+          <thead>
+            <tr>
+              <th scope="col">Degree</th>
+              <th scope="col">Institute</th>
+              <th scope="col">Year</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>B.Sc. Computer Science</td>
+              <td>VNSGU</td>
+              <td>2025</td>
+            </tr>
+            <tr>
+              <td>XII (Science, GSEB)</td>
+              <td>Shree Gurukrupaa Vidhya Sankul</td>
+              <td>2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ===== CONTACT SECTION ===== -->
+      <section id="contact-section" class="contact">
+        <h2 id="contact-heading" class="section-heading">Contact</h2>
+
+        <div id="contact-details">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:swastibadatya@gmail.com">
+              swastibadatya@gmail.com
+            </a>
+          </p>
+
+          <p>
+            <strong>Phone:</strong><a href="tel:+91 **********"></a> +91
+            33**97**70
+          </p>
+          <p><strong>Location:</strong> Surat, Gujarat, India</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="site-footer" class="footer">
+      <p class="footer-text">
+        &copy; <time datetime="2026">2026</time>
+        Swastisunder Badatya. All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
